@@ -1,71 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <title>Mon portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Amine BELHAMDI</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 <header>
-    <h1>Mon portfolio</h1>
-    <nav>
-        <ul>
-            <li><a href="#">Accueil</a></li>
-            <li><a href="#">Projets</a></li>
-            <li><a href="#">À propos</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+        <nav>
+            <div class="logo">BELHAMDI Amine</div>
+            <ul class="menu">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="menu-btn" id="menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="hero">
+            <h1>Je suis Amine Belhamdi, développeur en 2ème année de BUT Informatique</h1>
+            <p>Je crée des sites web modernes et interactifs qui aident les entreprises à se démarquer en ligne.</p>
+            <button id="hero-btn">En savoir plus</button>
+        </div>
+    </div>
 </header>
-
-<section id="hero">
-    <h2>Bienvenue sur mon portfolio</h2>
-    <p>Je suis un développeur web passionné et je crée des sites web incroyables.</p>
-    <button>En savoir plus</button>
-</section>
-
-<section id="projects">
-    <h2>Mes projets</h2>
-    <ul>
-        <li>
-            <img src="img/project1.png" alt="Projet 1">
-            <h3>Projet 1</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quis neque id pulvinar.</p>
-            <a href="#">Voir le projet</a>
-        </li>
-        <li>
-            <img src="img/project2.png" alt="Projet 2">
-            <h3>Projet 2</h3>
-            <p>Nullam hendrerit, nibh ac facilisis ullamcorper, sapien velit eleifend ipsum, eget rhoncus tellus turpis eu nisi.</p>
-            <a href="#">Voir le projet</a>
-        </li>
-        <li>
-            <img src="img/project3.png" alt="Projet 3">
-            <h3>Projet 3</h3>
-            <p>Aliquam at bibendum ipsum, vel feugiat neque. Praesent porttitor libero et metus bibendum tristique.</p>
-            <a href="#">Voir le projet</a>
-        </li>
-    </ul>
-</section>
-
-<section id="about">
-    <h2>À propos de moi</h2>
-    <img src="img/profile.png" alt="Photo de profil">
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quis neque id pulvinar. Nulla facilisi. Nam varius erat eu enim feugiat auctor. Nullam hendrerit, nibh ac facilisis ullamcorper, sapien velit eleifend ipsum, eget rhoncus tellus turpis eu nisi.</p>
-    <button>En savoir plus</button>
-</section>
-
-<section id="contact">
-    <h2>Contactez-moi</h2>
-    <form>
-        <label for="name">Nom</label>
-        <input type="text" id="name" name="name">
-
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email">
-
-        <label for="message">Message</label>
-        <textarea id="message" name="message"></textarea>
-
-        <button type="submit">Envoyer</button>
-    </form>
-</section>
+<main>
+    <div class="container">
+        <section id="services">
+            <h2>Mes services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <h3>Développement DevOps</h3>
+                    <p>Je développe en langage objet en respectant les principes solid, avec un code commenté et en utilisant les méthodes agiles.</p>
+                </div>
+                <div class="service">
+                    <h3>Développement Web</h3>
+                    <p>Je développe des sites web performants, dynamiques et bien structurés en utilisant la méthode MVC.</p>
+                </div>
+                <div class="service">
+                    <h3>Développement SQL</h3>
+                    <p>Je vous aide à créer, optimiser votre base de données à l'aide des formes normales, du PL/SQL et de vues matérialisées.</p>
+                </div>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Mes projets</h2>
+            <ul></ul>
+        </section>
+    </div>
+</main>
+<footer>
+    <div class="container">
+        <p>© BELHAMDI Amine 2023 - Tous droits réservés.</p>
+    </div>
+</footer>
+<script src="js/scripts.js"></script>
+</body>
+</html>

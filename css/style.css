@@ -111,6 +111,10 @@ nav {
     margin-bottom: 40px;
 }
 
+image{
+    padding: 50px;
+}
+
 #hero-btn {
     padding: 10px 20px;
     border: none;
@@ -163,20 +167,24 @@ footer {
 
 }
 
+.image {
+    margin-top: 50px;
+}
+
 .dark-mode {
-    background-color: #333333;
+    background-color: #252525;
     transition: background-color 0.5s ease;
     color: white;
 }
 
 .dark-mode header{
-    background-color: #333333;
+    background-color: #131313;
     transition: background-color 0.5s ease;
     color: white;
 }
 
 .dark-mode footer{
-    background-color: #333333;
+    background-color: #131313;
     transition: background-color 0.5s ease;
     color: white;
 }

@@ -5,12 +5,34 @@
     box-sizing: border-box;
 }
 
+:root{
+    --body-background-color:#333;
+}
+
+@media(prefers-color-scheme: dark){
+    :root
+    {
+        --body-background-color:#222;
+    }
+}
+
+
+@media(prefers-color-scheme: light){
+    :root
+    {
+        --body-background-color:#333;
+    }
+}
+
+
+
 /* Global styles */
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #333;
     line-height: 1.5;
+    --body-background-color:#333;
+    transition: background-color 0.5s ease;
 }
 
 a {
@@ -27,11 +49,17 @@ ul {
     margin: 0 auto;
     padding: 0 20px;
 }
+h2{
+    margin: 70px;
+    font-size: 220%;
+}
 
 /* Header */
 header {
     background-color: #fff;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.5s ease;
+
 }
 
 nav {
@@ -131,4 +159,24 @@ footer {
     background-color: #f2f2f2;
     padding: 20px 0;
     text-align: center;
+    transition: background-color 0.5s ease;
+
+}
+
+.dark-mode {
+    background-color: #333333;
+    transition: background-color 0.5s ease;
+    color: white;
+}
+
+.dark-mode header{
+    background-color: #333333;
+    transition: background-color 0.5s ease;
+    color: white;
+}
+
+.dark-mode footer{
+    background-color: #333333;
+    transition: background-color 0.5s ease;
+    color: white;
 }

@@ -101,6 +101,15 @@ nav {
     text-align: center;
 }
 
+.hero2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    text-align: center;
+}
+
 .hero h1 {
     font-size: 3rem;
     margin-bottom: 20px;
@@ -137,6 +146,16 @@ image{
     justify-items: center;
 }
 
+.parag{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.imgs{
+    align-items: center;
+    margin:auto;
+}
+
 .service {
     text-align: center;
 }
@@ -164,7 +183,6 @@ footer {
     padding: 20px 0;
     text-align: center;
     transition: background-color 0.5s ease;
-
 }
 
 .image {

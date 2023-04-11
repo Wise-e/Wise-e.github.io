@@ -149,6 +149,10 @@ image{
 .parag{
     text-align: center;
     margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px; /* largeur obligatoire pour être centré */
+  
 }
 
 .imgs{

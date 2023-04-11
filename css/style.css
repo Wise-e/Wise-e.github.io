@@ -157,7 +157,7 @@ image{
 .imgs{
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin:5px;
 }
 
 .service {

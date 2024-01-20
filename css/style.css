@@ -188,7 +188,9 @@ footer {
     text-align: center;
     transition: background-color 0.5s ease;
 }
-
+i {
+    display: block;
+}
 .image {
     margin-top: 50px;
 }
@@ -210,3 +212,4 @@ footer {
     transition: background-color 0.5s ease;
     color: white;
 }
+
